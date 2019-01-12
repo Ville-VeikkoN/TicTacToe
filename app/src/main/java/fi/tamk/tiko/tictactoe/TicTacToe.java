@@ -52,7 +52,6 @@ public class TicTacToe extends AppCompatActivity {
             if(button.getId() == view.getId()) {
                 button.setText("X");
                 button.setEnabled(false);
-                Debug.print("MyTag","ButtonID"+button.getId(),1);
             }
         }
     }
