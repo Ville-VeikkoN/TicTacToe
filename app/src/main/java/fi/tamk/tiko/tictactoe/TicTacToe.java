@@ -9,5 +9,6 @@ public class TicTacToe extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tic_tac_toe);
+        Debug.loadDebug(this);
     }
 }
