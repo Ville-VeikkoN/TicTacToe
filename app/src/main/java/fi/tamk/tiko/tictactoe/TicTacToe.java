@@ -19,6 +19,7 @@ public class TicTacToe extends AppCompatActivity {
     Button button09;
     ArrayList<Button> buttons;
     int[][] gameBoard;
+    boolean xTurn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,14 +45,21 @@ public class TicTacToe extends AppCompatActivity {
         buttons.add(button07);
         buttons.add(button08);
         buttons.add(button09);
+        xTurn = true;
+
     }
 
     public void clicked(View view) {
         Debug.print("MyTag", "Button clicked", 1);
         for(Button button : buttons) {
             if(button.getId() == view.getId()) {
-                button.setText("X");
                 button.setEnabled(false);
+                if(xTurn) {
+                    button.setBackgroundColor(view.getResources().getColor(R.color.colorAccent));
+                } else {
+                    button.setBackgroundColor(view.getResources().getColor(R.color.colorPrimaryDark));
+                }
+                xTurn = !xTurn;
             }
         }
     }
