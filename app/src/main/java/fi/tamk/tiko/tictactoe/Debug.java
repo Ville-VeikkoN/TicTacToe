@@ -11,6 +11,7 @@ public class Debug {
     }
 
     public static void loadDebug(Context host) {
-
+        DEBUG_LEVEL = host.getResources().getInteger(R.integer.debug_level);
+        DISPLAY_LOG_UI = host.getResources().getBoolean(R.bool.display_log_ui);
     }
 }
