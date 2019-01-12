@@ -45,6 +45,7 @@ public class TicTacToe extends AppCompatActivity {
         buttons.add(button07);
         buttons.add(button08);
         buttons.add(button09);
+        gameBoard = new int[3][3];
         xTurn = true;
 
     }
@@ -59,6 +60,11 @@ public class TicTacToe extends AppCompatActivity {
                 } else {
                     button.setBackgroundColor(view.getResources().getColor(R.color.colorPrimaryDark));
                 }
+                String rowCol = (String) button.getText();
+                String row = ""+rowCol.charAt(0);
+                String col = ""+rowCol.charAt(1);
+                Debug.print("MyTag", "row "+Integer.parseInt(row)+"col"+Integer.parseInt(col),1);
+                gameBoard[Integer.parseInt(row)][Integer.parseInt(col)] = 1;
                 xTurn = !xTurn;
             }
         }

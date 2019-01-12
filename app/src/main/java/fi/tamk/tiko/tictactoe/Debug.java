@@ -5,10 +5,10 @@ import android.util.Log;
 import android.widget.Toast;
 
 public class Debug {
-    public static int DEBUG_LEVEL;
-    public static boolean DISPLAY_LOG_UI;
-    public static Context context;
-    public static Toast toast;
+    static int DEBUG_LEVEL;
+    static boolean DISPLAY_LOG_UI;
+    static Context context;
+    static Toast toast;
 
     public static void print(String tag, String msg, int level) {
         if(BuildConfig.DEBUG && level <= DEBUG_LEVEL) {

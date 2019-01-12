@@ -28,7 +28,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="11"
+            android:text="00"
             android:textSize="0dp"
             />
         <Button
@@ -38,7 +38,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="12"
+            android:text="01"
             android:textSize="0dp"
             />
         <Button
@@ -48,7 +48,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="13"
+            android:text="02"
             android:textSize="0dp"
             />
     </TableRow>
@@ -62,7 +62,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="21"
+            android:text="10"
             android:textSize="0dp"
             />
         <Button
@@ -72,7 +72,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="22"
+            android:text="11"
             android:textSize="0dp"
             />
         <Button
@@ -82,7 +82,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="23"
+            android:text="12"
             android:textSize="0dp"
             />
     </TableRow>
@@ -96,7 +96,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="31"
+            android:text="20"
             android:textSize="0dp"
             />
         <Button
@@ -106,7 +106,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="32"
+            android:text="21"
             android:textSize="0dp"
             />
         <Button
@@ -116,7 +116,7 @@
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
             android:onClick="clicked"
-            android:text="33"
+            android:text="22"
             android:textSize="0dp"
             />
     </TableRow>
