@@ -16,6 +16,7 @@ public class Debug {
         }
         if(DISPLAY_LOG_UI) {
             toast = Toast.makeText(context, msg, Toast.LENGTH_SHORT);
+            toast.show();
         }
 
     }

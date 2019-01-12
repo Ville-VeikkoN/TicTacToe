@@ -27,6 +27,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
         <Button
             android:id="@+id/button02"
@@ -34,6 +35,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
         <Button
             android:id="@+id/button03"
@@ -41,6 +43,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
     </TableRow>
 
@@ -52,6 +55,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
         <Button
             android:id="@+id/button05"
@@ -59,6 +63,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
         <Button
             android:id="@+id/button06"
@@ -66,6 +71,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
     </TableRow>
 
@@ -77,6 +83,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
         <Button
             android:id="@+id/button08"
@@ -84,6 +91,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
         <Button
             android:id="@+id/button09"
@@ -91,6 +99,7 @@
             android:layout_height="80dp"
             android:layout_margin="5dp"
             android:background="@color/colorLightGreen"
+            android:onClick="clicked"
             />
     </TableRow>
 </TableLayout>

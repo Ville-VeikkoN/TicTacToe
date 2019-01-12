@@ -1,4 +1,4 @@
 <resources>
     <integer name="debug_level">1</integer>
-    <bool name="display_log_ui">false</bool>
+    <bool name="display_log_ui">true</bool>
 </resources>
