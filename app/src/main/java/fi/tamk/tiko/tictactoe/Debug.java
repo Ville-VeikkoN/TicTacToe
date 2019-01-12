@@ -7,4 +7,8 @@ public class Debug {
     public static void print() {
 
     }
+
+    public static void loadDebug() {
+
+    }
 }
